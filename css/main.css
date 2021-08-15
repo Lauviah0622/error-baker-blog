@@ -744,6 +744,7 @@ body {
   font-family: var(--font-family);
   background: var(--bg);
   color: var(--fg);
+  transition: all .3s;
 }
 section {
   margin-left: auto;
@@ -1201,6 +1202,8 @@ nav a:hover {
   width: 24px;
   transform: translateY(2.5px);
 }
+
+/* ANCHOR dark mode */
 body.dark {
     --fg: var(--bgColor);
     --bg: var(--fgColor);
